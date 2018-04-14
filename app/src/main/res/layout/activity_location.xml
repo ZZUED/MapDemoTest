@@ -12,14 +12,15 @@
         android:layout_height="wrap_content"/>
     <ImageButton
         android:id="@+id/Location_locate_button"
+        android:elevation="3dp"
         android:contentDescription="@string/app_name"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:scaleType="fitCenter"
-        android:background="@null"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:scaleType="center"
+        android:background="@drawable/oval_white_pressed_gray"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginStart="20dp"
         android:layout_marginBottom="20dp"
-        android:src="@mipmap/ic_launcher"/>
+        android:src="@drawable/locate"/>
 </RelativeLayout>
